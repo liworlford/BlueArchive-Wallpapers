@@ -1,0 +1,398 @@
+
+LobbyAyane_multi.png
+size: 4096,4096
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Accessories_01
+  rotate: false
+  xy: 2006, 546
+  size: 502, 456
+  orig: 502, 460
+  offset: 0, 2
+  index: -1
+Accessories_02
+  rotate: false
+  xy: 4028, 3736
+  size: 38, 112
+  orig: 38, 116
+  offset: 0, 2
+  index: -1
+Accessories_03
+  rotate: false
+  xy: 3052, 2920
+  size: 120, 102
+  orig: 122, 106
+  offset: 2, 0
+  index: -1
+Accessories_04
+  rotate: false
+  xy: 1784, 664
+  size: 294, 312
+  orig: 294, 312
+  offset: 0, 0
+  index: -1
+Accessories_04_s
+  rotate: false
+  xy: 3976, 2756
+  size: 116, 248
+  orig: 118, 252
+  offset: 2, 2
+  index: -1
+Accessories_05
+  rotate: false
+  xy: 3052, 2128
+  size: 230, 286
+  orig: 232, 288
+  offset: 0, 2
+  index: -1
+BG
+  rotate: false
+  xy: 4, 1588
+  size: 3044, 2260
+  orig: 3044, 2260
+  offset: 0, 0
+  index: -1
+L_Eyebrow
+  rotate: false
+  xy: 4, 1518
+  size: 234, 68
+  orig: 236, 72
+  offset: 0, 2
+  index: -1
+L_arm_01
+  rotate: 180
+  xy: 3486, 700
+  size: 606, 606
+  orig: 608, 606
+  offset: 2, 0
+  index: -1
+L_arm_02
+  rotate: true
+  xy: 3294, 230
+  size: 314, 668
+  orig: 316, 668
+  offset: 0, 0
+  index: -1
+L_arm_03
+  rotate: false
+  xy: 2806, 1330
+  size: 98, 256
+  orig: 104, 258
+  offset: 6, 2
+  index: -1
+L_eye
+  rotate: false
+  xy: 3850, 2934
+  size: 210, 94
+  orig: 210, 96
+  offset: 0, 2
+  index: -1
+R_Eyebrow
+  rotate: false
+  xy: 1112, 1468
+  size: 208, 116
+  orig: 208, 118
+  offset: 0, 2
+  index: -1
+R_arm_01
+  rotate: 270
+  xy: 3038, 618
+  size: 564, 630
+  orig: 566, 638
+  offset: 0, 8
+  index: -1
+R_arm_02
+  rotate: true
+  xy: 2882, 364
+  size: 276, 476
+  orig: 276, 476
+  offset: 0, 0
+  index: -1
+R_eye
+  rotate: false
+  xy: 3252, 2190
+  size: 198, 122
+  orig: 202, 126
+  offset: 0, 2
+  index: -1
+body_01
+  rotate: true
+  xy: 2992, 1082
+  size: 1264, 1100
+  orig: 1318, 1130
+  offset: 52, 28
+  index: -1
+body_02
+  rotate: true
+  xy: 828, 1056
+  size: 530, 1068
+  orig: 544, 1098
+  offset: 12, 26
+  index: -1
+book_01
+  rotate: false
+  xy: 1848, 910
+  size: 466, 676
+  orig: 472, 680
+  offset: 2, 2
+  index: -1
+book_02
+  rotate: false
+  xy: 2308, 1298
+  size: 322, 154
+  orig: 328, 158
+  offset: 2, 4
+  index: -1
+face
+  rotate: false
+  xy: 4, 788
+  size: 938, 798
+  orig: 938, 800
+  offset: 0, 0
+  index: -1
+face_shadow
+  rotate: 180
+  xy: 2280, 76
+  size: 752, 444
+  orig: 752, 444
+  offset: 0, 0
+  index: -1
+fx
+  rotate: false
+  xy: 3052, 3024
+  size: 972, 822
+  orig: 972, 822
+  offset: 0, 0
+  index: -1
+glasses_01
+  rotate: false
+  xy: 94, 358
+  size: 698, 286
+  orig: 700, 288
+  offset: 0, 0
+  index: -1
+haed_back2
+  rotate: false
+  xy: 946, 1446
+  size: 226, 138
+  orig: 242, 138
+  offset: 0, 0
+  index: -1
+hair_01
+  rotate: 270
+  xy: 3522, 418
+  size: 282, 570
+  orig: 288, 570
+  offset: 4, 0
+  index: -1
+hair_02
+  rotate: true
+  xy: 3244, 2266
+  size: 158, 526
+  orig: 162, 530
+  offset: 2, 2
+  index: -1
+hair_03
+  rotate: false
+  xy: 4, 206
+  size: 328, 478
+  orig: 332, 482
+  offset: 2, 2
+  index: -1
+hair_04
+  rotate: false
+  xy: 2276, 1368
+  size: 560, 218
+  orig: 574, 220
+  offset: 2, 2
+  index: -1
+hair_05
+  rotate: true
+  xy: 4, 584
+  size: 522, 874
+  orig: 566, 874
+  offset: 2, 0
+  index: -1
+hair_06
+  rotate: false
+  xy: 1176, 688
+  size: 374, 144
+  orig: 376, 150
+  offset: 2, 4
+  index: -1
+hair_07
+  rotate: 270
+  xy: 562, 108
+  size: 318, 736
+  orig: 368, 740
+  offset: 2, 2
+  index: -1
+hair_08
+  rotate: 270
+  xy: 3590, 116
+  size: 332, 500
+  orig: 336, 504
+  offset: 0, 2
+  index: -1
+hair_09
+  rotate: false
+  xy: 1988, 8
+  size: 482, 474
+  orig: 486, 478
+  offset: 2, 2
+  index: -1
+hair_10
+  rotate: false
+  xy: 2896, 1346
+  size: 120, 154
+  orig: 126, 160
+  offset: 4, 2
+  index: -1
+hair_11
+  rotate: 180
+  xy: 3774, 2452
+  size: 320, 442
+  orig: 324, 448
+  offset: 2, 4
+  index: -1
+hair_12
+  rotate: 270
+  xy: 1984, 378
+  size: 344, 712
+  orig: 360, 738
+  offset: 16, 0
+  index: -1
+hair_13
+  rotate: false
+  xy: 2620, 500
+  size: 468, 560
+  orig: 554, 564
+  offset: 2, 2
+  index: -1
+hair_14
+  rotate: true
+  xy: 1150, 772
+  size: 416, 722
+  orig: 416, 732
+  offset: 0, 0
+  index: -1
+hair_15
+  rotate: false
+  xy: 588, 1432
+  size: 378, 154
+  orig: 398, 156
+  offset: 18, 0
+  index: -1
+hair_16
+  rotate: true
+  xy: 860, 452
+  size: 622, 876
+  orig: 622, 878
+  offset: 0, 2
+  index: -1
+hair_b_01
+  rotate: 180
+  xy: 760, 278
+  size: 540, 356
+  orig: 540, 358
+  offset: 0, 0
+  index: -1
+hair_b_011
+  rotate: false
+  xy: 4028, 3576
+  size: 48, 122
+  orig: 540, 358
+  offset: 110, 32
+  index: -1
+hair_b_02
+  rotate: 270
+  xy: 1632, 266
+  size: 426, 372
+  orig: 430, 372
+  offset: 0, 0
+  index: -1
+hair_b_022
+  rotate: false
+  xy: 4028, 3640
+  size: 64, 96
+  orig: 430, 372
+  offset: 264, 98
+  index: -1
+halo_01
+  rotate: false
+  xy: 3052, 2382
+  size: 902, 640
+  orig: 902, 640
+  offset: 0, 0
+  index: -1
+halo_02
+  rotate: false
+  xy: 2286, 788
+  size: 782, 566
+  orig: 782, 566
+  offset: 0, 0
+  index: -1
+mouth_01
+  rotate: false
+  xy: 3888, 2314
+  size: 204, 176
+  orig: 204, 176
+  offset: 0, 0
+  index: -1
+neck
+  rotate: false
+  xy: 1216, 132
+  size: 362, 350
+  orig: 362, 386
+  offset: 0, 6
+  index: -1
+nose
+  rotate: false
+  xy: 4054, 3808
+  size: 36, 40
+  orig: 38, 40
+  offset: 0, 0
+  index: -1
+
+LobbyAyane_multi2.png
+size: 4096,4096
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01/Ayane
+  rotate: false
+  xy: 4, 798
+  size: 1414, 2300
+  orig: 1414, 2300
+  offset: 0, 0
+  index: -1
+01/Ayane_W
+  rotate: 180
+  xy: 1360, 798
+  size: 1414, 2300
+  orig: 1414, 2300
+  offset: 0, 0
+  index: -1
+01/Halo
+  rotate: 270
+  xy: 2540, 1232
+  size: 898, 646
+  orig: 898, 646
+  offset: 0, 0
+  index: -1
+01/Halo_W
+  rotate: 270
+  xy: 2668, 2202
+  size: 898, 646
+  orig: 898, 646
+  offset: 0, 0
+  index: -1
+01/sl
+  rotate: true
+  xy: 4, 6
+  size: 790, 2822
+  orig: 790, 2822
+  offset: 0, 0
+  index: -1
+

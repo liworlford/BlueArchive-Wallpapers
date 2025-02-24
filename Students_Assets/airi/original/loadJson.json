@@ -1,0 +1,25 @@
+{
+  "fileNames": ["Airi_home"],
+  "talkName": "Dev_Talk_0",
+  "talkNameEnd": "_M",
+  "touchbone": "Touch_Eye",
+  "eyeRadius": 20,
+  "headAnimation": "Pat_01",
+  "headAnimationEnd" : "PatEnd_01",
+  "language": ["jp","ch","en","vi"],
+  "animationIndex": [
+    {"name": "Airi_home", "animationName": "Start_Idle_01"}
+  ],
+  "mixType": 1,
+  "talkMax": 5,
+  "particle": {
+    "particleName": "shiroko_riding",
+    "autoPlay":true,
+    "x": 0.5,
+    "y": 0.5,
+    "width": 1,
+    "height": 1
+  },
+  "bgString": "Dev_Background",
+  "indexs": [-2,-10]
+}

@@ -1,0 +1,448 @@
+CH0281_home.png
+  size: 4096,4096
+	filter: Linear, Linear
+	scale: 0.53
+B_Bag_Strap
+  bounds: 1014,278,342,698
+  offsets: 34,26,496,968
+	rotate: 90
+B_Blouse_Collar_1
+  bounds: 1182,1116,736,338
+  offsets: 4,8,748,354
+	rotate: 180
+B_Blouse_Collar_2
+  bounds: 2940,2712,312,154
+  offsets: 6,12,328,178
+B_Ear
+  bounds: 4,3798,42,130
+  offsets: 6,10,52,146
+B_Hair_1
+  bounds: 2184,1960,470,512
+  offsets: 1822,1466,2294,1980
+	rotate: 90
+B_Hair_1C
+  bounds: 4,4,1030,704
+  offsets: 82,234,1764,1524
+B_Hair_2
+  bounds: 2116,334,322,942
+  offsets: 0,0,326,944
+	rotate: 90
+B_Hair_3
+  bounds: 1702,2400,1294,1528
+  offsets: 0,0,1298,1530
+B_Hair_4
+  bounds: 4,1486,1206,1070
+  offsets: 268,160,1914,1640
+	rotate: 180
+B_Hair_4C
+  bounds: 614,838,598,528
+  offsets: 1780,1518,2488,2132
+	rotate: 180
+B_Hair_Base
+  bounds: 3426,3454,470,474
+  offsets: 0,4,478,478
+B_R_Hair_1
+  bounds: 2798,208,388,334
+  offsets: 8,10,404,354
+B_R_Hair_2
+  bounds: 4,274,284,304
+  offsets: 6,6,296,316
+B_Skirt_1
+  bounds: 1644,3864,88,64
+  offsets: 4,6,100,76
+B_Skirt_2
+  bounds: 2450,3880,62,48
+  offsets: 6,8,76,64
+B_Skirt_3
+  bounds: 4,3742,48,64
+  offsets: 6,6,62,78
+B_Skirt_4
+  bounds: 1014,3680,76,106
+  offsets: 6,6,94,118
+B_Skirt_5
+  bounds: 2584,3578,68,100
+  offsets: 6,8,82,116
+B_Skirt_6
+  bounds: 230,394,422,178
+  offsets: 6,8,436,192
+B_Skirt_Base
+  bounds: 414,650,392,392
+  offsets: 706,6,1108,1094
+	rotate: 90
+B_Skirt_BaseC
+  bounds: 3676,1252,416,486
+  offsets: 4,602,1108,1094
+Bag
+  bounds: 2644,2842,842,1086
+  offsets: 6,6,852,1100
+Blouse3
+  bounds: 4,2340,1588,1276
+  offsets: 0,0,1682,1276
+	rotate: 270
+Blouse_collar_1
+  bounds: 3898,3472,184,256
+  offsets: 12,12,208,274
+Blouse_collar_2
+  bounds: 832,942,372,274
+  offsets: 8,6,386,286
+F_Bag_Strap
+  bounds: 3172,264,654,920
+  offsets: 2,4,660,930
+	rotate: 270
+F_Bag_Strap_2
+  bounds: 920,1808,396,384
+  offsets: 0,4,426,394
+F_Bag_Strap_3
+  bounds: 628,1820,506,560
+  offsets: 0,8,514,574
+F_Ribbon
+  bounds: 2012,1568,1904,2080
+  offsets: 0,4,1912,2094
+	rotate: 90
+Front_hair_1
+  bounds: 2408,2406,392,616
+  offsets: 14,14,422,646
+Front_hair_2
+  bounds: 2038,804,410,682
+  offsets: 16,12,440,710
+	rotate: 270
+Front_hair_3
+  bounds: 930,1382,416,710
+  offsets: 12,14,444,738
+	rotate: 270
+Front_hair_4
+  bounds: 1524,266,516,816
+  offsets: 12,12,542,840
+	rotate: 270
+Front_hair_5
+  bounds: 1392,802,480,722
+  offsets: 14,12,572,762
+	rotate: 90
+Front_hair_6
+  bounds: 3228,764,574,864
+  offsets: 14,12,604,890
+	rotate: 270
+Front_hair_7
+  bounds: 750,1210,658,980
+  offsets: 10,8,690,998
+	rotate: 270
+Front_hair_8
+  bounds: 3128,506,652,964
+  offsets: 12,10,676,982
+	rotate: 270
+Front_hair_9
+  bounds: 3570,2058,476,620
+  offsets: 10,8,502,644
+Front_hair_shadow
+  bounds: 56,564,310,348
+  offsets: 6,6,322,400
+Head_Ribbon_1
+  bounds: 3376,3870,54,58
+  offsets: 10,10,74,78
+Head_Ribbon_2
+  bounds: 962,3120,162,160
+  offsets: 6,8,176,174
+Head_Ribbon_3
+  bounds: 3404,3724,102,204
+  offsets: 12,6,122,220
+Head_Ribbon_4
+  bounds: 4,3462,108,466
+  offsets: 10,6,130,484
+Head_Ribbon_5
+  bounds: 1980,1534,208,326
+  offsets: 14,8,228,342
+L_Arm
+  bounds: 66,3364,280,564
+  offsets: 8,6,292,578
+L_Arm_Blouse_1
+  bounds: 1202,606,378,414
+  offsets: 4,2,386,420
+	rotate: 180
+L_Arm_Blouse_3
+  bounds: 1958,2280,666,1052
+  offsets: 0,0,666,1054
+L_B_Arm_Blouse_2
+  bounds: 2504,3666,276,262
+  offsets: 6,6,288,276
+L_Breast
+  bounds: 3222,1134,706,228
+  offsets: 42,474,774,712
+	rotate: 180
+L_Eye
+  bounds: 316,3878,68,50
+  offsets: 10,8,86,68
+L_Eye closed
+  bounds: 980,3780,304,148
+  offsets: 12,14,328,172
+L_Eye lid
+  bounds: 3376,3152,146,68
+  offsets: 4,6,158,82
+L_Eyeborw
+  bounds: 334,3816,248,112
+  offsets: 12,12,272,132
+L_Eyebrow 2
+  bounds: 6,3266,244,102
+  offsets: 10,12,266,122
+L_Hand_1
+  bounds: 1876,462,224,390
+  offsets: 10,10,244,410
+L_Hand_2
+  bounds: 2778,3750,190,178
+  offsets: 8,6,208,198
+L_Hand_3
+  bounds: 1916,3292,106,352
+  offsets: 12,8,132,370
+L_Leg
+  bounds: 3024,1730,1068,754
+  offsets: 6,6,1082,768
+L_T_Eyebrow 1
+  bounds: 964,2908,210,114
+  offsets: 8,8,228,130
+L_T_Eyebrow 2
+  bounds: 3248,2956,180,120
+  offsets: 10,8,200,136
+L_White
+  bounds: 3480,3218,142,68
+  offsets: 8,8,158,84
+L_pupil
+  bounds: 114,3894,28,34
+  offsets: 12,12,50,56
+Leaf_shadow
+  bounds: 1704,1282,538,574
+  offsets: 0,0,538,576
+	rotate: 90
+Mouth 1
+  bounds: 3464,3256,182,98
+  offsets: 12,10,220,118
+Mouth 2
+  bounds: 572,3870,148,58
+  offsets: 10,12,170,76
+Mouth 3
+  bounds: 38,3872,44,56
+  offsets: 12,12,66,78
+Mouth 4
+  bounds: 1280,3894,76,34
+  offsets: 8,8,96,50
+Mouth 5
+  bounds: 2014,3322,122,84
+  offsets: 6,8,128,94
+Neck
+  bounds: 1666,752,394,402
+  offsets: 0,8,396,412
+	rotate: 90
+Pelvis
+  bounds: 2134,1052,366,360
+  offsets: 2,2,368,364
+	rotate: 180
+Phone
+  bounds: 2340,666,208,382
+  offsets: 8,10,224,400
+	rotate: 90
+Phone_Shadow
+  bounds: 3882,274,210,350
+  offsets: 6,6,220,362
+R_Arm
+  bounds: 4,1108,278,696
+  offsets: 8,6,292,706
+	rotate: 90
+R_B_Blouse_Arm_3
+  bounds: 1254,2786,294,142
+  offsets: 6,6,306,154
+R_B_Hair_1
+  bounds: 2610,542,278,628
+  offsets: 8,10,294,644
+	rotate: 90
+R_B_Hair_2
+  bounds: 1580,480,308,510
+  offsets: 6,6,318,520
+R_Blouse_Arm_1
+  bounds: 4,1318,408,288
+  offsets: 2,6,416,298
+R_Blouse_Arm_2
+  bounds: 806,610,314,274
+  offsets: 6,8,360,288
+R_Breast
+  bounds: 3686,2320,406,482
+  offsets: 276,24,692,520
+R_Eye
+  bounds: 2816,3870,74,58
+  offsets: 10,8,92,76
+R_Eye closed
+  bounds: 4,3122,134,62
+  offsets: 6,6,148,74
+R_Eye lid
+  bounds: 3488,3868,124,60
+  offsets: 6,8,136,76
+R_Eyebrow
+  bounds: 3356,3074,158,76
+  offsets: 4,8,172,90
+R_Eyebrow 2
+  bounds: 3706,3264,148,84
+  offsets: 4,6,158,98
+R_Hand_1
+  bounds: 2004,3338,182,200
+  offsets: 16,22,206,230
+R_Hand_2
+  bounds: 960,2976,208,78
+  offsets: 6,8,222,94
+R_Hand_3
+  bounds: 958,3860,190,68
+  offsets: 10,12,206,84
+R_Hand_4
+  bounds: 364,3764,148,84
+  offsets: 10,10,168,102
+R_Hand_5
+  bounds: 3876,3684,212,244
+  offsets: 10,10,232,260
+R_Hand_6
+  bounds: 938,3338,114,262
+  offsets: 6,8,128,276
+R_Leg
+  bounds: 1258,1722,834,1104
+  offsets: 8,8,850,1118
+R_White
+  bounds: 2964,3866,120,62
+  offsets: 10,8,136,76
+R_pupil
+  bounds: 144,3902,22,26
+  offsets: 10,10,40,46
+Shushu_1
+  bounds: 38,3182,150,84
+  offsets: 4,2,162,92
+Shushu_2
+  bounds: 4,1908,308,304
+  offsets: 8,8,322,320
+Side hair_1
+  bounds: 3082,1416,292,616
+  offsets: 10,10,318,644
+	rotate: 90
+Side hair_2
+  bounds: 742,276,442,900
+  offsets: 8,10,464,920
+	rotate: 90
+Side hair_3
+  bounds: 2686,1144,528,1074
+  offsets: 6,6,540,1084
+	rotate: 90
+Side_hair_shadow
+  bounds: 2808,2854,144,178
+  offsets: 6,8,156,192
+Skirt_1
+  bounds: 2094,1256,956,440
+  offsets: 4,6,960,452
+Skirt_2
+  bounds: 46,1360,882,606
+  offsets: 6,6,894,618
+Skirt_3
+  bounds: 948,1736,734,762
+  offsets: 6,0,756,768
+Skirt_4
+  bounds: 2342,1604,562,950
+  offsets: 4,6,614,960
+	rotate: 90
+Skirt_5
+  bounds: 1848,2062,428,958
+  offsets: 0,0,436,966
+Skirt_6
+  bounds: 2724,746,410,894
+  offsets: 4,6,420,928
+	rotate: 90
+Skirt_Base
+  bounds: 3188,2848,514,482
+  offsets: 8,6,528,498
+Sweat
+  bounds: 2728,3868,44,60
+  offsets: 6,6,56,72
+blouse back 3
+  bounds: 3248,632,562,168
+  offsets: 6,8,576,184
+blush eye_closed
+  bounds: 146,862,472,304
+  offsets: 8,8,480,320
+blush eye_open
+  bounds: 2772,892,472,312
+  offsets: 12,0,484,320
+front_hair base
+  bounds: 3446,3330,492,212
+  offsets: 6,0,506,218
+head
+  bounds: 1044,2816,914,1112
+  offsets: 10,8,944,1120
+	rotate: 180
+highlight
+  bounds: 294,3908,24,20
+  offsets: 8,8,40,36
+left arm blouse 3
+  bounds: 524,318,366,370
+  offsets: 10,16,380,474
+nose
+  bounds: 4038,3872,52,56
+  offsets: 10,8,68,74
+upper body
+  bounds: 2780,1446,682,394
+  offsets: 172,152,860,552
+
+CH0281_home_2.png
+  size: 2048,4096
+	filter: Linear, Linear
+	scale: 0.53
+01/light ray
+  bounds: 128,1586,1162,832
+  offsets: 40,82,1202,1098
+01/light_1
+  bounds: 4,2418,1988,1636
+  offsets: 392,0,2660,1866
+01/light_2
+  bounds: 1048,4,2444,996
+  offsets: 0,0,2660,1220
+	rotate: 270
+01/light_3
+  bounds: 4,1234,388,444
+  offsets: 34,40,428,490
+
+CH0281_home_3.png
+  size: 4096,2048
+	filter: Linear, Linear
+	scale: 0.53
+02/halo 1
+  bounds: 4,1756,218,214
+  offsets: 10,4,232,224
+02/halo 2
+  bounds: 2872,186,500,498
+  offsets: 8,0,508,506
+02/left_village
+  bounds: 4,496,1168,1474
+  offsets: 614,0,1782,1862
+02/right_wall
+  bounds: 3196,316,738,470
+  offsets: 88,0,1108,470
+02/right_wall shadow
+  bounds: 2182,662,1308,678
+  offsets: 4,10,1726,692
+	rotate: 90
+02/right_wall tree 1
+  bounds: 4,4,494,752
+  offsets: 0,18,1076,924
+	rotate: 270
+02/right_wall tree 2
+  bounds: 1010,746,1172,1224
+  offsets: 480,234,2238,1850
+02/right_wall2
+  bounds: 2278,872,986,1098
+  offsets: 22,0,2586,1098
+	rotate: 180
+02/road
+  bounds: 788,246,596,808
+  offsets: 456,0,1772,836
+	rotate: 270
+02/sky
+  bounds: 3520,788,572,626
+  offsets: 806,318,1596,1120
+02/sky2
+  bounds: 3146,1416,554,670
+  offsets: 270,274,1596,1120
+	rotate: 270
+02/warning pole
+  bounds: 1650,328,772,1786
+  offsets: 250,482,1554,2268
+	rotate: 90

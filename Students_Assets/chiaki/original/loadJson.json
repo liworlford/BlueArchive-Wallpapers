@@ -1,0 +1,82 @@
+{
+  "SettingModel": {
+    "version": 5,
+    "skel": "CH0238_home.skel",
+    "atlas": "CH0238_home.atlas",
+    "eyeTouch": "Touch_Me",
+    "idol": "Idle_01",
+    "x": 953,
+    "y": 1063,
+    "scale": 0.57,
+    "angle": 0,
+    "bgmVolume": 0.1,
+    "talkVolume": 0.45,
+    "showTouch": true,
+    "panelDisplay": true,
+    "showTalkDialog": true,
+    "textX": 880,
+    "textY": 495,
+    "textSize": 16,
+    "autoTalk": 0,
+    "resolution": "2k",
+    "startAnimation": "Start_Idle_01",
+    "startScene": true,
+    "language": "中文"
+  },
+  "EventInfos" : [
+    {"BoneName": "Chest_All_con", "Width": 1500, "Height": 800, "Animations":
+    ["Talk_01_M","Talk_02_M","Talk_03_M","Talk_04_M","Talk_05_M"],
+	"AnimationIndex": 10, "TextIndex":  0, "ClickType" : "click", "EmptyAnimation": true},
+
+    {"BoneName": "Touch_Point_Key", "Width": 800, "Height": 500, "Animations":
+	["Pat_01_M"], 
+	"AnimationIndex": 20, "TextIndex":  0, "ClickType" :  "pointerdown", "EmptyAnimation": false}
+	
+  ],
+  "AnimationsTexts" : {
+    "中文": {
+      "sound/CH0238_MemorialLobby_1_1": "啊哈哈！机会抓住！",
+      "sound/CH0238_MemorialLobby_1_2": "睡着的老师的模样，正适合下周的周刊头版！",
+      "sound/CH0238_MemorialLobby_2_1": "这样一来万魔殿的周刊特集的准备就万无一失了！",
+      "sound/CH0238_MemorialLobby_2_2": "真不愧是我！又抓拍到独家新闻了～！",
+      "sound/CH0238_MemorialLobby_3": "哼哼，不能轻视书记的行动力哟～",
+      "sound/CH0238_MemorialLobby_4_1": "有了！趁着这份势头，讲老师的秘密全部逼迫出来吧？",
+      "sound/CH0238_MemorialLobby_4_2": "比如袜子上的洞的谜题什么的！",
+      "sound/CH0238_MemorialLobby_5_1": "欸！要让捣乱的学生尝尝桌下禁闭的处罚...！？",
+      "sound/CH0238_MemorialLobby_5_2": "对，对不起！放我出去吧！"
+    },
+    "日本語": {
+      "sound/CH0238_MemorialLobby_1_1": "あははっ！シャッターチャンス、とらえました！",
+      "sound/CH0238_MemorialLobby_1_2": "居眠りする先生の顔！次号の表紙にピッタリです！",
+      "sound/CH0238_MemorialLobby_2_1": "これで「週刊万魔殿」特集号の準備は万全！",
+      "sound/CH0238_MemorialLobby_2_2": "さっすが私！またスクープをゲットしちゃいました～！",
+      "sound/CH0238_MemorialLobby_3": "ふふっ、書記の行動力、侮っちゃいけませんよ～？",
+      "sound/CH0238_MemorialLobby_4_1": "そうだ！この勢いで、先生の謎に迫っていきましょうか……？",
+      "sound/CH0238_MemorialLobby_4_2": "靴下に空いた穴の謎、とか……！",
+      "sound/CH0238_MemorialLobby_5_1": "えっ！意地悪な子は「机の下閉じ込めの刑」に処す……！？",
+      "sound/CH0238_MemorialLobby_5_2": "ご、ごめんなさ～い！出してください～！"
+    },
+    "한국어": {
+      "sound/CH0238_MemorialLobby_1_1": "아하핫! 셔터 찬스, 잡았습니다!",
+      "sound/CH0238_MemorialLobby_1_2": "졸고 있는 선생님의 얼굴! 다음 호 표지에 딱이라구요!",
+      "sound/CH0238_MemorialLobby_2_1": "이걸로 「주간 만마전」 특집호 준비는 완벽!",
+      "sound/CH0238_MemorialLobby_2_2": "역시 치아키! 또 특종을 잡고 말았네요~!",
+      "sound/CH0238_MemorialLobby_3": "후훗 서기의 행동력, 과소평가하면 안 된다구요~?",
+      "sound/CH0238_MemorialLobby_4_1": "그렇지! 이 기세로 선생님의 비밀을 파헤쳐 볼까요......?",
+      "sound/CH0238_MemorialLobby_4_2": "구멍난 양말의 비밀, 이라든가......!",
+      "sound/CH0238_MemorialLobby_5_1": "엣! 못된 아이는 「책상 아래 가두는 형벌」 이라구요......!?",
+      "sound/CH0238_MemorialLobby_5_2": "죄, 죄송합니다~! 꺼내주세요~!"
+    },
+    "Tiếng Việt": {
+      "sound/CH0238_MemorialLobby_1_1": "Ahaha , đã chụp được khoảng khắc tuyệt vời!",
+      "sound/CH0238_MemorialLobby_1_2": "Khuôn mặt ngủ gà ngủ gật của sensei, rất chi là phù hợp để làm trang bìa tiếp theo!",
+      "sound/CH0238_MemorialLobby_2_1": "Với nó, việc chuẩn bị cho số đặc biệt của tuần [Pseudomonarchia Daemanum] đã hoàn thành",
+      "sound/CH0238_MemorialLobby_2_2": "Quả là mình có khác! lại săn được tin sốt dẻo nữa rồi~",
+      "sound/CH0238_MemorialLobby_3": "Thầy đừng có mà coi thường năng lực thực thi của thư ký đo nha~!",
+      "sound/CH0238_MemorialLobby_4_1": "À đúng rồi! Nhân cơ hội này, hãy để em vạch trần một số bí mật của thầy nhé...?",
+      "sound/CH0238_MemorialLobby_4_2": "Kiểu như bí ẩn về lỗ thủng trên tất chả hạn.....",
+      "sound/CH0238_MemorialLobby_5_1": "Kiểu như bí ẩn về lỗ thủng trên tất chả hạn.....",
+      "sound/CH0238_MemorialLobby_5_2": "Em- Cho em xin lỗiiii..... Làm ơn hãy thả emn raaaaaa~~!"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "fileNames": ["SoulDress_Colcher_Dress_02","SoulDress_Colcher_Dress_BG"],
+  "talkName": ["chat","greet"],
+  "touchbone": "Touch_Eye",
+  "eyeRadius": 20,
+  "headAnimation": "Pat_01_A",
+  "headAnimationEnd" : "PatEnd_01_M",
+  "language": ["jp","ch","en","kr","vi","th"],
+  "animationIndex": [
+    {"name": "akari_home", "animationName": "Start_Idle_01"},
+    {"name": "akari_bg", "animationName": "Start_Idle_01"}
+  ],
+  "mixType": 1,
+  "talkMax": 2,
+  "particle": {
+    "particleName": "shiroko_riding",
+    "autoPlay":true,
+    "x": 0.5,
+    "y": 0.5,
+    "width": 1,
+    "height": 1
+  },
+  "bgString": "BG_00_R"
+}

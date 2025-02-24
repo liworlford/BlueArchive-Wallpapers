@@ -1,0 +1,175 @@
+
+Aru_scene.png
+size: 8192,8192
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Back_G
+  rotate: true
+  xy: 4184, 964
+  size: 2820, 1980
+  orig: 2820, 1980
+  offset: 0, 0
+  index: -1
+Forearm_01
+  rotate: true
+  xy: 6172, 1024
+  size: 2624, 1568
+  orig: 2624, 1568
+  offset: 0, 0
+  index: -1
+Hand_01
+  rotate: true
+  xy: 8, 256
+  size: 1612, 1392
+  orig: 1720, 1392
+  offset: 108, 0
+  index: -1
+Hand_index_1
+  rotate: false
+  xy: 8, 2012
+  size: 752, 976
+  orig: 752, 976
+  offset: 0, 0
+  index: -1
+Hand_index_2
+  rotate: 180
+  xy: 7228, 5920
+  size: 500, 952
+  orig: 504, 1036
+  offset: 4, 0
+  index: -1
+Hand_middle_1
+  rotate: false
+  xy: 6876, 4856
+  size: 728, 848
+  orig: 728, 848
+  offset: 0, 0
+  index: -1
+Hand_middle_2
+  rotate: false
+  xy: 3320, 796
+  size: 464, 1316
+  orig: 464, 1316
+  offset: 0, 0
+  index: -1
+Hand_pinky_1
+  rotate: 270
+  xy: 5964, 7316
+  size: 660, 472
+  orig: 660, 564
+  offset: 0, 84
+  index: -1
+Hand_pinky_2
+  rotate: 180
+  xy: 5964, 3824
+  size: 336, 660
+  orig: 340, 660
+  offset: 0, 0
+  index: -1
+Hand_pinky_3
+  rotate: 180
+  xy: 6456, 180
+  size: 420, 660
+  orig: 424, 660
+  offset: 0, 0
+  index: -1
+Hand_ring_1
+  rotate: false
+  xy: 6988, 5496
+  size: 680, 852
+  orig: 680, 940
+  offset: 0, 0
+  index: -1
+Hand_ring_2
+  rotate: false
+  xy: 6096, 312
+  size: 400, 1036
+  orig: 400, 1036
+  offset: 0, 0
+  index: -1
+Hand_thumb_01
+  rotate: 270
+  xy: 6656, 4880
+  size: 380, 456
+  orig: 380, 456
+  offset: 0, 0
+  index: -1
+Hand_thumb_02
+  rotate: false
+  xy: 7368, 6876
+  size: 600, 636
+  orig: 600, 636
+  offset: 0, 0
+  index: -1
+Telephone_01
+  rotate: false
+  xy: 6636, 5280
+  size: 628, 1528
+  orig: 628, 1532
+  offset: 0, 0
+  index: -1
+Telephone_03
+  rotate: true
+  xy: 5964, 3652
+  size: 4324, 1608
+  orig: 4324, 1608
+  offset: 0, 0
+  index: -1
+Telephone_04
+  rotate: false
+  xy: 8, 1140
+  size: 4172, 2648
+  orig: 4512, 2648
+  offset: 192, 0
+  index: -1
+Telephone_04_1
+  rotate: true
+  xy: 6880, 156
+  size: 864, 368
+  orig: 864, 376
+  offset: 0, 4
+  index: -1
+Telephone_04_2
+  rotate: 270
+  xy: 2756, 96
+  size: 656, 440
+  orig: 660, 444
+  offset: 0, 4
+  index: -1
+Telephone_04_3
+  rotate: false
+  xy: 3792, 1024
+  size: 380, 684
+  orig: 380, 684
+  offset: 0, 0
+  index: -1
+Top_Light
+  rotate: false
+  xy: 8, 3792
+  size: 5948, 4180
+  orig: 5948, 4180
+  offset: 0, 0
+  index: -1
+Torso_01
+  rotate: false
+  xy: 3648, 1712
+  size: 472, 1472
+  orig: 472, 1472
+  offset: 0, 0
+  index: -1
+UpperArm_01
+  rotate: true
+  xy: 1556, 176
+  size: 1316, 1272
+  orig: 1316, 1276
+  offset: 0, 4
+  index: -1
+coat_02
+  rotate: false
+  xy: 2728, 280
+  size: 1920, 972
+  orig: 1920, 972
+  offset: 0, 0
+  index: -1
+

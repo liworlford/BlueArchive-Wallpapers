@@ -1,0 +1,158 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "bug反馈/建议 Q群 634399554 _(:з」∠)_",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"audioprobability" : 
+			{
+				"fraction" : true,
+				"index" : 3,
+				"max" : 1,
+				"min" : 0,
+				"order" : 103,
+				"precision" : 2,
+				"step" : 0.1,
+				"text" : "audio - probability(自动触发概率)",
+				"type" : "slider",
+				"value" : 0.2
+			},
+			"audiovolume" : 
+			{
+				"fraction" : true,
+				"index" : 2,
+				"max" : 1,
+				"min" : 0,
+				"order" : 102,
+				"precision" : 2,
+				"step" : 0.1,
+				"text" : "audio - volume(角色音量)",
+				"type" : "slider",
+				"value" : 1
+			},
+			"bgmvolume" : 
+			{
+				"fraction" : true,
+				"index" : 1,
+				"max" : 1,
+				"min" : 0,
+				"order" : 101,
+				"precision" : 2,
+				"step" : 0.1,
+				"text" : "bgm - volume(背景音量)",
+				"type" : "slider",
+				"value" : 0.2
+			},
+			"mirror" : 
+			{
+				"index" : 10,
+				"order" : 110,
+				"text" : "mirror (镜像)",
+				"type" : "bool",
+				"value" : false
+			},
+			"scale" : 
+			{
+				"fraction" : true,
+				"index" : 7,
+				"max" : 5000,
+				"min" : 0,
+				"order" : 107,
+				"precision" : 1,
+				"step" : 1,
+				"text" : "scale(缩放)",
+				"type" : "slider",
+				"value" : 0
+			},
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "1 1 1"
+			},
+			"screenx" : 
+			{
+				"fraction" : true,
+				"index" : 8,
+				"max" : 1,
+				"min" : 0,
+				"order" : 108,
+				"precision" : 3,
+				"step" : 0.01,
+				"text" : "screen - x (水平位移)",
+				"type" : "slider",
+				"value" : 0
+			},
+			"screeny" : 
+			{
+				"fraction" : true,
+				"index" : 9,
+				"max" : 1,
+				"min" : 0,
+				"order" : 109,
+				"precision" : 3,
+				"step" : 0.01,
+				"text" : "screen - Y (垂直位移)",
+				"type" : "slider",
+				"value" : 0
+			},
+			"skippv" : 
+			{
+				"index" : 0,
+				"order" : 100,
+				"text" : "skip - pv(跳过片头)",
+				"type" : "bool",
+				"value" : true
+			},
+			"textpostionx" : 
+			{
+				"fraction" : true,
+				"index" : 4,
+				"max" : 1,
+				"min" : 0,
+				"order" : 104,
+				"precision" : 3,
+				"step" : 0.01,
+				"text" : "text - postion - x (文本框水平位置)",
+				"type" : "slider",
+				"value" : 0.61
+			},
+			"textpostiony" : 
+			{
+				"fraction" : true,
+				"index" : 5,
+				"max" : 1,
+				"min" : 0,
+				"order" : 105,
+				"precision" : 3,
+				"step" : 0.01,
+				"text" : "text - postion - y (文本框垂直位置)",
+				"type" : "slider",
+				"value" : 0.67
+			},
+			"texttype" : 
+			{
+				"index" : 6,
+				"options" : 
+				[
+					{
+						"label" : "无(none)",
+						"value" : "99"
+					}
+				],
+				"order" : 106,
+				"text" : "text type (文本类型)",
+				"type" : "combo",
+				"value" : "1"
+			}
+		}
+	},
+	"preview" : "preview.gif",
+	"tags" : [ "Game" ],
+	"title" : "L2D 碧蓝档案 | Blue Archive | ブルーアーカイブ | 和泉 | aizumi | イズミ",
+	"type" : "web",
+	"version" : 0
+}

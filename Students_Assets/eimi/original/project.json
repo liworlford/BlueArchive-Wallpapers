@@ -1,0 +1,26 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "I am looking for a solution for 8K, not available for now\n8k效果不行,加载也久,正在找新的办法,暂时不提供8K了\n设置请移动鼠标到右上角!\nbug反馈/建议 Q群 634399554 _(:з」∠)_",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0 0"
+			}
+		}
+	},
+	"preview" : "preview.gif",
+	"tags" : [ "Game" ],
+	"title" : "L2D 碧蓝档案 8K | Blue Archive | ブルーアーカイブ | 艾米 | eimi | エイミ",
+	"type" : "Web",
+	"version" : 1,
+	"visibility" : "public",
+	"workshopid" : "2955858306",
+	"workshopurl" : "steam://url/CommunityFilePage/2955858306"
+}

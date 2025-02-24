@@ -1,0 +1,26 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "For settings, please move your mouse to the top right corner\n设置请移动鼠标到右上角!\nbug反馈/建议 Q群 634399554 _(:з」∠)_",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0 0"
+			}
+		}
+	},
+	"preview" : "preview.gif",
+	"tags" : [ "Game" ],
+	"title" : "L2D 碧蓝档案 8K | Blue Archive | ブルーアーカイブ | 阿露(新春) | aru(newyear) | アル(正月)",
+	"type" : "Web",
+	"version" : 4,
+	"visibility" : "public",
+	"workshopid" : "2902389608",
+	"workshopurl" : "steam://url/CommunityFilePage/2902389608"
+}

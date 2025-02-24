@@ -1,0 +1,26 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "For settings, please move your mouse to the top right corner\n设置请移动鼠标到右上角!\nbug反馈/建议 Q群 634399554 _(:з」∠)_",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0 0"
+			}
+		}
+	},
+	"preview" : "preview.gif",
+	"tags" : [ "Game" ],
+	"title" : "L2D 碧蓝档案 8K | Blue Archive | ブルーアーカイブ | 千世(泳装) | chise(swim) | チセ(水着)",
+	"type" : "Web",
+	"version" : 3,
+	"visibility" : "public",
+	"workshopid" : "2900937551",
+	"workshopurl" : "steam://url/CommunityFilePage/2900937551"
+}
