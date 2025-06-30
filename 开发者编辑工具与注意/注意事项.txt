@@ -1,0 +1,283 @@
+PS：如果有很多！！！ 那么就是重要内容。
+本来选择界面就是从arona.ai扒过来的 所以任何更新只能看他们有没有相对应的角色入口
+需要更改的文件有“_next/static/chunks/pages/students-078314018a2046f9.js”和“students.html” 其他的基本不用动 这两个主要是需要更改“_next/static/chunks/pages/students-078314018a2046f9.js”这个是因为有些菜单UI需要汉化 比如说筛选返回等 不是学生名字 不是学生名字 不是学生名字！！！
+更改“students.html”里面才是学生名字的更改和汉化 其中这些学生有些属性在汉化的时候可能被我影响了 现在筛选和排序基本处于不可用状态（我错了呜呜 晴帮我改吧。。。
+另外另外啊 学生如果有特殊的限定 如 “佳代子（礼服）” 里面的两个括号一定一定要是中文字符的括号 一定要是中文字符括号！！！！
+所以每次更新了新角色的话基本只要在“students.html“里面汉化就行了 具体方法有待验证 我不知道它折叠的那一大块到底是怎么个原理 是不是模块式的 
+猜测：只是猜测 可以每次把新学生的入口内容 从新扒下来的”students.html“复制出来 汉化一下 再接到模块里面 只是猜测啊
+另外”students.html“的汉化原理是 先拿给定的日文名 去kivo.wiki对照中文名 然后把给的韩文替换掉 为了可以被检索到 还需要在“UIs。。。。。。。。。。。。。。。。。。。一大堆”下面再多写一遍中文 比如说
+
+
+如下是星野的一块 一般的没有这么复杂
+
+[
+                        10045,
+                        90,
+                        "星野（泳装）",  # -----------》这个是把韩文替换掉的
+                        "ホシノ（水着）",
+                        0,
+                        "UIs/01_Common/14_CharacterCollect/Student_Portrait_Hoshino_Swimsuit_Collection",
+                        "폭발",
+                        "星野（泳装）", # -----------》 这个是后加的 为了可以被检索到
+                        "특수장갑",
+                        "아비도스 고등학교",
+                        "대책위원회",
+                        false,
+                        104,
+                        3,
+                        true,
+                        "17세",
+                        "145cm",
+                        [
+                            "수리된 토템폴",
+                            "온전한 네브라 디스크"
+                        ],
+                        "서포터",
+                        "SG",
+                        450,
+                        1824,
+                        717,
+                        "Front",
+                        false,
+                        4641,
+                        74680,
+                        2406,
+                        7132,
+                        164,
+                        717,
+                        521,
+                        20000,
+                        0,
+                        100,
+                        100,
+                        700,
+                        "SS",
+                        "A",
+                        "D"
+                    ],
+
+
+
+好了以上是例子举完了
+
+然后 最最最重要的 最最最重要的 最最最重要的！！！！ 重定向的映射！！！！
+
+ 这一部分是这样的 因为代码是扒的 我们没有决定权 所以出此下策
+Arona.ai他们在“students.html”里面的设定是 比如我点击了“佳代子” 那么就给我跳转到的页面应该是“/students/佳代子” 
+然后我们的live2d内容是放在“/students/学生名(日文假名转罗马字的英文名)/original（可能也有限定的如swim）/index.html" 后面有这个的具体解释啊
+所以在nginx.conf里面 （注意！！ 是整个nginx的大配置文件 不是单独网站的配置文件是不一样的 不能混用！！！）创建映射 具体代码是AI写的与我无关（笑 AI解释如下
+
+
+将配置分成两个部分：
+nginx.conf (或你的主配置文件中 http 块的片段)：包含 map 指令。
+wallpaper.kivotos.de.conf (或你的网站 server 块文件)：包含 server 块的详细配置。
+1. nginx.conf (或主配置文件中 http 块的片段)
+你需要在主 NGINX 配置文件 (/etc/nginx/nginx.conf) 或其通过 include 引入的任何文件中找到 http { ... } 块，并在其内部添加以下 map 配置。（这里是在其内部添加map配置）
+
+具体配置代码：
+# 通常在 /etc/nginx/nginx.conf 文件中找到 'http' 块
+http {
+    # ... 其他 http 块的配置，例如 mime.types, sendfile, keepalive_timeout 等 ...
+
+    # ================================================
+    # Map 指令用于定义重定向规则 - 放置在 http 块内
+    # ================================================
+    map $request_uri $redirect_students_url {
+        default ""; # 默认不重定向
+
+        # 将旧的编码路径 "/students/佳代子" 重定向到新的路径
+        # 注意：这里直接使用 URL 编码后的路径
+        "/students/%E4%BD%B3%E4%BB%A3%E5%AD%90" "/students/kayoko/original/index.html"; # ----------》主要修改动这里要将students.html出来的url和live2d的url对接 例子下面给了
+        # 未来如果还有更多一对一的精确重定向，可以在此处继续添加：
+        # "/old-path-A" "/new-path-X";
+        # "/old-path-B" "/new-path-Y";
+    }
+    # ================================================
+
+    # ... 其他 http 块的配置 ...
+
+    # 包含你的 server 块文件，例如：
+    include /etc/nginx/conf.d/*.conf;
+}
+
+分析一下 最重要的一句 "/students/%E4%BD%B3%E4%BB%A3%E5%AD%90" "/students/kayoko/original/index.html";
+前面是studens.html出来的的url 后面是live2d的url
+
+
+但是此时还有一个问题 浏览器发请求的时候是需要给汉字编码的 而且"nginx.conf"也是只能识别编码后的汉字 所以在做映射的时候要先编码
+编码的话使用“/开发者编辑工具与注意/url编码.py”就可以 直接python3在命令行跑就行 而且这个比较周全 比如输入佳代子 直接输出就是“"/students/%E4%BD%B3%E4%BB%A3%E5%AD%90"”（不带外面的中文双引号我后加的！！）
+这个  "/students/%E4%BD%B3%E4%BB%A3%E5%AD%90"  就是编码好的studens.html出来的url 也就是说 输出直接复制过来 就可以用作map映射对接的第一部分 加个空格 后面就应该是对应的live2d的url 这个要么webstorm自动补全 但别信他 仔细看 它有时骗人 得自己改点
+
+后面live2d的格式是什么样的呢 如下 还是以佳代子为例
+"/students/kayoko/original/index.html"
+翻译一下
+"/students/学生名(日文假名转罗马字的英文名)/服装种类/index.html" 可以参考前面也有这句
+这里的“学生名(日文假名转罗马字的英文名)”怎么来呢 先拿中文名去“https://zh.wikipedia.org/zh-cn/蔚藍檔案角色列表”这里对比 找到日文名 就是假名那个 然后在把假名复制下来 使用脚本'/开发者编辑工具与注意/假名转罗马字.py'来处理 这个脚本需要一个库pykakasi 没有安装一下就行不难
+这个怎么用呢 你输入日文假名 然后就会返回给你对应的罗马字 也就是“学生名(日文假名转罗马字的英文名)”这个变量
+
+后面还有“服装种类”怎么整 来了个统一标准
+普通 original
+泳装 swim
+正月 newyear
+体操服 sport
+礼服 dress
+应援团 cheerleader
+乐队 band
+兔女郎 bunny
+女仆 maid
+偶像 idol
+制服 seifuku （暂定）
+露营 camp
+临战 combat
+温泉 onsen
+睡衣 pajama
+便服 daily
+打工odd
+旗袍 qipao
+圣诞xmas
+恐怖 terror
+导游 guide
+骑行服 cycle
+动画化 animation （暂定）
+#注释掉不要了 tnn的nexon md哪来的这么多变化 算了确实好看（动摇了
+
+除此以外 为了完成映射 负责网站的小conf配置也得做改变 下面ai解释
+
+
+2. wallpaper.kivotos.de.conf (你的网站 server 块文件)
+这个文件应该包含了你网站 server 块的所有详细配置。我已经将重定向逻辑添加进去了。
+
+具体代码：
+# 这是一个单独的 server 配置文件，例如位于 /etc/nginx/conf.d/ 或 /www/server/panel/vhost/nginx/
+server
+{
+    listen 80;
+    listen 443 ssl;
+    listen 443 quic;
+    listen [::]:443 ssl;
+    listen [::]:443 quic;
+    http2 on;
+    listen [::]:80;
+    server_name wallpaper.kivotos.de;
+    index students.html index.php index.htm default.php default.htm default.html;
+    root /www/wwwroot/wallpaper.kivotos.de;
+
+    # CERT-APPLY-CHECK--START
+    # 用于SSL证书申请时的文件验证相关配置 -- 请勿删除
+    include /www/server/panel/vhost/nginx/well-known/wallpaper.kivotos.de.conf;
+    # CERT-APPLY-CHECK--END
+
+    # SSL-START SSL相关配置，请勿删除或修改下一行带注释的404规则
+    #error_page 404/404.html;
+    #HTTP_TO_HTTPS_START##############################################----------》其实重点从这就开始了
+    set $isRedcert 1;
+    if ($server_port != 443) {
+        set $isRedcert 2;
+    }
+    if ( $uri ~ /\.well-known/ ) {
+        set $isRedcert 1;
+    }
+    if ($isRedcert != 1) {
+        # 这个 rewrite 会优先处理 HTTP 到 HTTPS 的重定向。
+        rewrite ^(/.*)$ https://$host$1 permanent;
+    }
+    #HTTP_TO_HTTPS_END
+
+    # ================================================			#
+    # 新增的重定向规则 - 放置在 HTTP_TO_HTTPS_END 之后			#
+    # ================================================			#
+    # 检查 $redirect_students_url 变量，如果它不为空，则执行 301 永久重定向。  #---------》 重点在这
+    # 这会捕获通过 HTTPS 或已经转换为 HTTPS 的请求。				#
+    if ($redirect_students_url != "") {
+        return 301 $redirect_students_url;				#
+    }									#
+    # ================================================			#
+
+    ssl_certificate         /www/server/panel/vhost/cert/wallpaper.kivotos.de/fullchain.pem;
+    ssl_certificate_key     /www/server/panel/vhost/cert/wallpaper.kivotos.de/privkey.pem;
+    ssl_protocols TLSv1.1 TLSv1.2 TLSv1.3;
+    ssl_ciphers EECDH+CHACHA20:EECDH+CHACHA20-draft:EECDH+AES128:RSA+AES128:EECDH+AES256:RSA+AES256:EECDH+3DES:RSA+3DES:!MD5;
+    ssl_prefer_server_ciphers on;
+    ssl_session_tickets on;
+    ssl_session_cache shared:SSL:10m;
+    ssl_session_timeout 10m;
+    add_header Strict-Transport-Security "max-age=31536000";
+    add_header Alt-Svc 'quic=":443"; h3=":443"; h3-29=":443"; h3-27=":443";h3-25=":443"; h3-T050=":443"; h3-Q050=":443";h3-Q049=":443";h3-Q048=":443"; h3-Q046=":443"; h3-Q043=":443"';
+    error_page 497  https://$host$request_uri;
+
+    #SSL-END
+
+    #ERROR-PAGE-START  错误页配置，可以注释、删除或修改
+    error_page 404 /404.html;
+    #error_page 502 /502.html;
+    #ERROR-PAGE-END
+
+    #PHP-INFO-START  PHP引用配置，可以注释或修改
+    include enable-php-80.conf;
+    #PHP-INFO-END
+
+    #REWRITE-START URL重写规则引用,修改后将导致面板设置的伪静态规则失效
+    include /www/server/panel/vhost/rewrite/wallpaper.kivotos.de.conf;
+    #REWRITE-END
+
+    #禁止访问的文件或目录
+    location ~ ^/(\.user.ini|\.htaccess|\.git|\.env|\.svn|\.project|LICENSE|README.md)
+    {
+        return 404;
+    }
+
+    #一键申请SSL证书验证目录相关设置
+    location ~ \.well-known{
+        allow all;
+    }
+
+    #禁止在证书验证目录放入敏感文件
+    if ( $uri ~ "^/\.well-known/.*\.(php|jsp|py|js|css|lua|ts|go|zip|tar\.gz|rar|7z|sql|bak)$" ) {
+        return 403;
+    }
+
+    location ~ .*\.(gif|jpg|jpeg|png|bmp|swf)$
+    {
+        expires         30d;
+        error_log /dev/null;
+        access_log /dev/null;
+    }
+
+    location ~ .*\.(js|css)?$
+    {
+        expires         12h;
+        error_log /dev/null;
+        access_log /dev/null;
+    }
+    access_log  /www/wwwlogs/wallpaper.kivotos.de.log;
+    error_log   /www/wwwlogs/wallpaper.kivotos.de.error.log;
+}
+
+重点摘录一下
+    #HTTP_TO_HTTPS_START##############################################----------》其实重点从这就开始了
+    set $isRedcert 1;
+    if ($server_port != 443) {
+        set $isRedcert 2;
+    }
+    if ( $uri ~ /\.well-known/ ) {
+        set $isRedcert 1;
+    }
+    if ($isRedcert != 1) {
+        # 这个 rewrite 会优先处理 HTTP 到 HTTPS 的重定向。
+        rewrite ^(/.*)$ https://$host$1 permanent;
+    }
+    #HTTP_TO_HTTPS_END
+
+    # ================================================			#
+    # 新增的重定向规则 - 放置在 HTTP_TO_HTTPS_END 之后			#
+    # ================================================			#
+    # 检查 $redirect_students_url 变量，如果它不为空，则执行 301 永久重定向。  #---------》 重点在这
+    # 这会捕获通过 HTTPS 或已经转换为 HTTPS 的请求。				#
+    if ($redirect_students_url != "") {
+        return 301 $redirect_students_url;				#
+    }									#
+    # ================================================			#
+
+基本就这样粘贴上去就行 不用怎么改了 再改坏了 对了有个404的注释别动他哈！！！！！！！
+
+6/30/00：34 检查到椿（导游）了 剩下明天干完活再查再改吧 晚安。
